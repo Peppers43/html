@@ -4,16 +4,66 @@
     box-sizing: border-box;
 }
 
-.head{
-    background-color: #b4b3b3;
-    margin-top: 30px;
+h1{
     text-align: center;
-    letter-spacing: 2px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
+    font-family: sans-serif;
 }
-nav{
-    font-size: 30px;
+
+P{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav{
+    font-size: 25px;
     text-align: center;
     padding-left: 20px;
+}
+.nav ul{
+    margin-top: 20px;
+}
+
+.nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+
+main{
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+section{
+    box-sizing: border-box;
+    display: flex;
+}
+
+div{
+    border: 5px solid grey;
+    padding: 25px 50px 75px;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: #f3efef;
+}   
+.Page1{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.Page2{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Page3{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
 }
